@@ -21,7 +21,7 @@ public class CheckNewAccountCreationWith_ValidInputs {
 	   driver.findElement(By.linkText("Account Sign In")).click();
 	   driver.findElement(By.id("createAccount")).click();
 	   driver.findElement(By.id("hash_tag")).click();
-	   driver.findElement(By.id("hash_tag")).sendKeys("Yash");
+	   driver.findElement(By.id("hash_tag")).sendKeys("Yashwanth");
 	   driver.findElement(By.id("nextBtn")).click();
 	   driver.findElement(By.partialLinkText("Buy Hashtag")).click();
 	   driver.findElement(By.id("firstName")).click();
@@ -29,7 +29,7 @@ public class CheckNewAccountCreationWith_ValidInputs {
 	   driver.findElement(By.id("lastName")).click();
 	   driver.findElement(By.id("lastName")).sendKeys("Gude");
 	   driver.findElement(By.id("phoneNumber")).click();
-	   driver.findElement(By.id("phoneNumber")).sendKeys("9490111674");
+	   driver.findElement(By.id("phoneNumber")).sendKeys("9490111675");
 	   driver.findElement(By.id("accountPassword")).click();
 	   driver.findElement(By.id("accountPassword")).sendKeys("Satish@123");
 	   driver.findElement(By.id("emailAddress")).click();
@@ -46,7 +46,7 @@ public class CheckNewAccountCreationWith_ValidInputs {
 	   driver.findElement(By.id("nextBtn")).click();
 	   driver.navigate().back();
        driver.navigate().back();
-       driver.findElement(By.id("username")).sendKeys("9490111674");
+       driver.findElement(By.id("username")).sendKeys("9490111675");
        driver.findElement(By.id("nextBtn")).click();
 	   driver.close();
 	  
